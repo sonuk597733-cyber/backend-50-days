@@ -1,119 +1,56 @@
-Backend 50 Days — Level 1 → Level 10
-🟢 LEVEL 1 — Node.js Foundation
-Day
-Practical
-01
-Node.js setup + first HTTP server
-02
-Request/Response + different URLs
-03
-Routing without Express
-04
-HTTP methods: GET, POST, PUT, PATCH, DELETE
-05
-JSON data + basic CRUD in memory
-🟢 LEVEL 2 — Node.js Real Backend
-Day
-Practical
-06
-fs module + JSON file storage
-07
-Read/write/update/delete data from file
-08
-path + project structure
-09
-Error handling + HTTP status codes
-10
-🔥 Mini Node.js REST API
-🔵 LEVEL 3 — Express.js
-Day
-Practical
-11
-Express server from zero
-12
-Express routing
-13
-Route parameters
-14
-Query parameters + search
-15
-POST + express.json()
-16
-PUT/PATCH
-17
-DELETE
-18
-Middleware
-19
-Multiple middleware + next()
-20
-🔥 Express CRUD API
-🟡 LEVEL 4 — Professional REST API
-Day
-Practical
-21
-REST API design
-22
-Router separation
-23
-Controllers
-24
-Services/business logic
-25
-Central error handling
-26
-Validation
-27
-Proper status codes + API responses
-28
-Thunder Client API testing
-29
-Professional folder structure
-30
-🔥 Complete REST API Project
-🟠 LEVEL 5 — MongoDB
-Day
-Practical
-31
-MongoDB database/collection/document
-32
-MongoDB CRUD
-33
-Queries + operators
-34
-Node.js + MongoDB connection
-35
-Mongoose setup
-36
-Schema + Model
-37
-Mongoose CRUD
-38
-Validation
-39
-References + populate()
-40
-🔥 Express + MongoDB REST API
-🔴 LEVEL 6 — Authentication
-Day
-Practical
-41
-Password hashing with bcrypt
-42
-Register API
-43
-Login API
-44
-JWT authentication
-45
-Protected routes
-46
-User roles: User/Admin
-47
-.env + security basics
-48
-🔥 Complete Auth System
-49
-Final project integration + testing
-50
-🏆 Final Production-Style Backend Project
+🚀 Real Backend Developer — 50 Days Roadmap
+🟢 Phase 1 — Backend Foundation
+Day 1: Node.js + project setup + server
+Day 2: Request/Response + URL + HTTP basics
+Day 3: Express setup + first API
+Day 4: Routes + HTTP methods
+Day 5: REST API basics + CRUD
+Day 6: Route params + query params
+Day 7: JSON body + express.json()
+Day 8: Status codes + proper API responses
+Day 9: Middleware + next()
+Day 10: Mini REST API — without database
+🔵 Phase 2 — Professional Express
+Day 11: Express Router
+Day 12: Controllers
+Day 13: Services / business logic
+Day 14: Project folder architecture
+Day 15: Error handling
+Day 16: Custom errors
+Day 17: Request validation
+Day 18: API response structure
+Day 19: Thunder Client + API testing
+Day 20: Complete professional Express API
+🟡 Phase 3 — MongoDB
+Day 21: MongoDB fundamentals
+Day 22: Database / collection / document
+Day 23: CRUD queries
+Day 24: MongoDB with Node
+Day 25: Mongoose setup
+Day 26: Schema + Model
+Day 27: Mongoose CRUD
+Day 28: Validation
+Day 29: Relationships + populate()
+Day 30: Express + MongoDB complete API
+🔴 Phase 4 — Authentication & Security
+Day 31: Password hashing + bcrypt
+Day 32: Register API
+Day 33: Login API
+Day 34: JWT
+Day 35: Authentication middleware
+Day 36: Protected routes
+Day 37: User roles — User/Admin
+Day 38: .env + environment variables
+Day 39: Security basics
+Day 40: Complete authentication system
+🟣 Phase 5 — Real Production Backend
+Day 41: Pagination
+Day 42: Search + filtering + sorting
+Day 43: File/image upload
+Day 44: Email/OTP concepts + implementation
+Day 45: API documentation
+Day 46: Logging + debugging
+Day 47: Testing backend APIs
+Day 48: Deployment + production environment
+Day 49: Complete real-world backend project
+Day 50: Build a backend from scratch yourself 🚀
