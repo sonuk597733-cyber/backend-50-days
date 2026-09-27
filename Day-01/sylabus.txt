@@ -1,14 +1,12 @@
-📒 Day 1 — Node.js Backend Basics
-Aaj maine seekha:
-•	Node.js se basic backend server banana. 
-•	http module ka use. 
-•	http.createServer() se server create karna. 
-•	Request (req) aur Response (res) ka basic concept. 
-•	res.end() se client ko response bhejna. 
-•	app.listen() se server ko port par run karna. 
-•	localhost:3000 par backend ko test karna. 
-•	app.js aur server.js ko separate rakhna. 
-•	GitHub par Day 1 ka code push karna. 
-Practical:
-👉 Apna first Node.js HTTP server बनाया और browser में
- successfully run किया।
+1. Express Foundation ⭐⭐⭐⭐⭐ 
+ Express.js kya hai  
+ Express vs Node HTTP  
+ Installation  
+ express()  
+ app  
+ app.listen()  
+ First route  
+ req / res  
+ res.send()  
+ res.json()  
+ Multiple routes  
