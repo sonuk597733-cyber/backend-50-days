@@ -1,13 +1,11 @@
-📒 Day 2 — Request, Response & URL
-Aaj maine seekha:
-•	Client aur server ke beech request-response kaise hota hai. 
-•	req (Request) aur res (Response) ka use. 
-•	req.url se requested URL read karna. 
-•	req.method se HTTP method check karna. 
-•	Different URLs par different response dena. 
-•	GET request ka basic practical. 
-•	Browser se backend ko request bhejna. 
-•	localhost:3000 par different routes test karna. 
-Practical:
-👉 Ek server banaya jo URL ke according different 
-    response deta hai, jaise /, /about, /contact.
+2. Routing ⭐⭐⭐⭐⭐ 
+ app.get()  
+ app.post()  
+ app.put()  
+ app.patch()  
+ app.delete()  
+ Route parameters  
+ Multiple parameters  
+ Query parameters  
+ Route order  
+ Route handlers  
