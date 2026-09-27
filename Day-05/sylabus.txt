@@ -1,0 +1,18 @@
+📒 Day 5 — Route Params & Query Params
+Aaj maine seekha:
+•	Route parameters kya hote hain. 
+•	req.params se URL se data lena. 
+•	Query parameters kya hote hain. 
+•	req.query se URL ke query data ko read karna. 
+•	Dynamic routes banana. 
+•	Filtering/search ke liye query parameters ka basic use. 
+•	Route params aur query params ke beech difference. 
+Examples:
+/users/101
+        ↑
+   Route Param
+/users?name=Sonu&age=18
+        ↑
+   Query Params
+Practical:
+👉 Dynamic user route aur search/filter API banakar Thunder Client se test ki.
