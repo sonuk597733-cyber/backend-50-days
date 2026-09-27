@@ -1,0 +1,45 @@
+DAY 6 — REQUEST VALIDATION & VALIDATION MIDDLEWARE
+
+1. Request Validation
+   - Required fields check
+   - Invalid data check
+   - Data type validation
+   - Positive number validation
+
+2. API Error Handling
+   - 400 Bad Request
+   - Meaningful error messages
+   - return res.status().json()
+
+3. Validation Middleware
+   - Middleware kya hai
+   - req, res, next
+   - next() ka use
+   - Validation ko separate middleware file me rakhna
+
+4. Product Validation
+   - name required
+   - price required
+   - category required
+   - name/category must be string
+   - price must be positive number
+
+5. Middleware Structure
+   Request
+      ↓
+   Validation Middleware
+      ↓
+   Valid → next()
+      ↓
+   Controller/Route
+      ↓
+   Response
+
+6. Practical Task
+   - POST /products
+   - Valid product create
+   - Invalid product reject
+   - Validation middleware ko separate file me use karna
+
+DAY 6 GOAL:
+Request ko validate karke hi backend me valid data allow karna.
