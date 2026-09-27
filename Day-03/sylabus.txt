@@ -1,0 +1,14 @@
+📒 Day 3 — Express.js Basics
+Aaj maine seekha:
+•	Express.js kya hai aur Node.js ke saath kyu use karte hain. 
+•	Express install karna. 
+•	Express app/server create karna. 
+•	express() ka use. 
+•	app.listen() se server start karna. 
+•	app.get() se first API/route banana. 
+•	Browser/Thunder Client se API test karna. 
+•	Node.js ke raw http ke comparison me Express se backend
+     development easier kaise hota hai. 
+Practical:
+👉 Express.js se apna first API server banaya aur / route ko
+       successfully test kiya.
