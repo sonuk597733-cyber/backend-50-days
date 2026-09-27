@@ -67,7 +67,7 @@ product.price = price;
     })
 })
 
-//PATCH
+//PATCh
 app.patch('/product/:id',(req,res)=>{
  const id = Number(req.params.id);
  const {price} = req.body;

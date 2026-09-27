@@ -1,12 +1,26 @@
-📒 Day 4 — Routes & HTTP Methods
-Aaj maine seekha:
-•	Express.js में routes क्या होते हैं। 
-•	app.get() से GET route बनाना। 
-•	POST, PUT, PATCH, DELETE methods का basic use। 
-•	HTTP methods का purpose समझना। 
-•	अलग-अलग routes पर अलग response देना। 
-•	Thunder Client से अलग-अलग HTTP requests test करना। 
-•	API में method + URL का महत्व समझना। 
-Practical:
-👉 Express backend में GET, POST, PUT, PATCH और DELETE 
-    requests को समझकर test किया।
+5. REST API ⭐⭐⭐⭐⭐ 
+ REST kya hai  
+ REST principles  
+ Resource  
+ Endpoint design  
+ HTTP methods ka proper use  
+ JSON response  
+ Standard API response  
+6. CRUD ⭐⭐⭐⭐⭐ 
+ GET all  
+ GET by ID  
+ POST/Create  
+ PUT  
+ PATCH  
+ DELETE  
+ In-memory CRUD  
+ CRUD errors  
+7. HTTP Status Codes ⭐⭐⭐⭐⭐ 
+ 200  
+ 201  
+ 400  
+ 401  
+ 403  
+ 404  
+ 500  
+ Kab kaunsa use karein  
