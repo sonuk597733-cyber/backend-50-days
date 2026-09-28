@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+  background-color:#121314;
+  color: #4CAF50;
+  height: 100vh;
+  
+}
+.box{
+  width: 300px;
+  background-color: rgba(255,255,255,0.2);
+  color: #4CAF50;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+
+}
+#click{
+  padding:15px 40px;
+  border-radius: 10px;
+  background-color:rgba(255,255,255,0.3);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+#message{
+  padding-top: 20px;
+  color: #4CAF50;
+  font-size: 16px;
+}
+.student-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #222;
+  color: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.student-card h2 {
+  margin-bottom: 10px;
+}
