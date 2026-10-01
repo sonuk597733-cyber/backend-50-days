@@ -1,0 +1,70 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  color: white;
+  height: 100vh;
+}
+aside{
+  width: 200px;
+  height: 100vh;
+  background-color: rgb(65, 65, 163);
+  padding: 20px;
+}
+aside a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: 20px;
+}
+form{
+  padding-top: 30px;
+}
+
+#user{
+ text-align: center;
+ padding: 20px;
+}
+
+
+/* get */
+.profile{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+}
+.userdata{
+  height:200px;
+  width: 200px;
+  background-color: rgba(255, 255, 255,0.4);
+  border: 1px solid white;
+  color: white;
+  padding: 20px;
+  line-height: 1;
+}
+.userdata h2{
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.userdata p{
+  font-size: 16px;
+  color: rgb(143, 137, 137);
+  padding: 10px 0px;
+}
+.userdata button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(38, 40, 40);
+  color: white;
+  padding-top: 20px 0px ;
+
+}
+.userdata button:hover{
+  background-color:rgb(17, 18, 18);
+  color: white;
+  border: 1px solid blue;
+}

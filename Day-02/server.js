@@ -10,6 +10,18 @@ app.use(express.static("public"));
 app.post("/user/auth/register",async(req,res)=>{
   console.log(req.url);
 const {username,email,password} = req.body;
+
+ const isExistEmail = await User.findOne(
+  {email}
+)
+if(isExistEmail){
+ return res.status(409).json({
+    succes:true,
+    message:"Email allredy exists!"
+
+  })
+}
+
 if(!username){
   return res.status(400).json({
     success:false,

@@ -1,31 +1,33 @@
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
-const submit = document.getElementById('submit');
-const form = document.querySelector('form');
-const result = document.getElementById("result");
-form.addEventListener("submit",(e)=>{
+const registerForm = document.querySelector("#registerForm");
+const username = document.querySelector("#username");
+const email = document.querySelector("#email");
+const password = document.querySelector("#password");
+const submit = document.querySelector("#submit");
+const registerMessage = document.querySelector("#registerMessage");
+const view = 
+registerForm.addEventListener("submit",async(e)=>{
   e.preventDefault();
-  const userData ={
-    name:name.value,
+  const userData = {
+    username:username.value,
     email:email.value,
-    message:message.value
-  }
-   fetch("/contact", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(userData)
-    })
-    .then(respose=> respose.json())
-    .then(data=>{
-      result.textContent = data.message;
-      form.reset();
-    })
-  })
-
-
+    password:password.value
+  };
+try{
+const response = await fetch("http://localhost:3000/user/api/register",{
+ method:"POST",
+ headers:{
+  "Content-Type":"application/json"
+ },
+ body:JSON.stringify(userData)
+})
+const data = await response.json();
+registerMessage.textContent = data.message;
+}
+catch(error){
+  registerMessage.textContent =error.message;
+  console.log(error);
+}
+});
 
 
 
