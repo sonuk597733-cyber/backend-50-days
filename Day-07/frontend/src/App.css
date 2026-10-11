@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6f8;
+  padding: 30px;
+}
+
+#click {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #07dc19;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+#click:hover {
+  background: #004182;
+}
+
+#message {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile {
+  width: 250px;
+}
+
+.userdata {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.userdata h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.userdata p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.viewprofile {
+  padding: 9px 18px;
+  border: 1px solid #0a66c2;
+  border-radius: 20px;
+  background: white;
+  color: #0a66c2;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.viewprofile:hover {
+  background: #e8f3ff;
+}

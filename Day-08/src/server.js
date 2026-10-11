@@ -1,6 +1,6 @@
-import app from '../src/app.js';
+import app from './app.js';
 
-import coonectDB from '../src/config/database.js';
+import coonectDB from './config/database.js';
 
 coonectDB();
 

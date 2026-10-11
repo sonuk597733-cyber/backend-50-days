@@ -2,10 +2,11 @@ import "dotenv/config";
 import connectDB from "./config/database.js";
 import User from "./models/user.js"
 import express from "express";
-
+import cors from "cors";
 connectDB();
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
