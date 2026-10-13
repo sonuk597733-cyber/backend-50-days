@@ -1,9 +1,9 @@
 import React from 'react'
-import Form from './components/Form.jsx'
+import From from './components/From.jsx'
 const App = () => {
   return (
     <div>
-      <Form />
+      < From />
     </div>
   )
 }
