@@ -484,3 +484,13 @@ button {
     padding: 20px;
   }
 }
+.view_profile{
+  padding:10px 20px;
+  font-size: 12px;
+  margin-left:0px;
+  margin-top: 30px;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  color: black;
+  background-color: white;
+}

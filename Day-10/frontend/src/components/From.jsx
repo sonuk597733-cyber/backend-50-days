@@ -391,6 +391,7 @@ const handleDelete = async (id) => {
                 <p className="user-bio">
                   <strong>Bio:</strong> {user.bio || 'Bio not available'}
                 </p>
+                <button className='view_profile'>View profile⟶</button>
               </article>
             ))}
           </div>

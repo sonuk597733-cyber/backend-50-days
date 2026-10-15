@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f8fc;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 76px;
+  padding: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #e8eaf0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 800;
+  color: #17172b;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: #6558e8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: #55566b;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #6558e8;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.login-btn,
+.signup-btn,
+.hero-btn {
+  border: none;
+  border-radius: 9px;
+  padding: 12px 19px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.login-btn {
+  color: #292940;
+  background: transparent;
+}
+
+.login-btn:hover {
+  background: #f0efff;
+}
+
+.signup-btn,
+.hero-btn {
+  color: white;
+  background: #6558e8;
+}
+
+.signup-btn:hover,
+.hero-btn:hover {
+  background: #5143d0;
+  transform: translateY(-2px);
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.tag {
+  padding: 9px 15px;
+  border-radius: 30px;
+  color: #6558e8;
+  background: #eeecff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.hero h1 {
+  margin-top: 25px;
+  font-size: clamp(38px, 5vw, 65px);
+  color: #17172b;
+  letter-spacing: -2px;
+}
+
+.hero h1 span {
+  color: #6558e8;
+}
+
+.hero p {
+  max-width: 520px;
+  margin: 20px 0 28px;
+  color: #6e6e83;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    padding: 18px 5%;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .logo {
+    font-size: 23px;
+  }
+
+  .login-btn,
+  .signup-btn {
+    padding: 10px 12px;
+  }
+
+  .hero h1 {
+    letter-spacing: -1px;
+  }
+}
